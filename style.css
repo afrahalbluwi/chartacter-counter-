@@ -1,0 +1,112 @@
+body {
+    background-image: url('images/bg-dark-theme.png');
+    background-size: cover;       /* لملء الشاشة */
+    background-position: center;  /* توسيط الصورة */
+    background-repeat: no-repeat; /* منع التكرار */
+    height: 100vh;                /* يغطي الشاشة */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+  }
+  header {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    position: absolute;
+    top: 0;
+    left: 200px; /* المسافة من اليسار */
+  }
+  
+  .logo {
+    width: 200px;     /* أو حسب حجم تصميمك */
+    height: auto;
+  }
+  
+ 
+  h1 {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 900px;
+    height: 200px;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    background-color: #21222c;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+
+  
+  .counters {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .counter-box {
+    width: 220px;
+    height: 120px;
+    border-radius: 16px;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .counter-box .count {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .counter-box .label {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  /* خلفيات ملوّنة + pattern */
+  
+  .characters {
+    background-image: url('images/pattern-character-count.svg');
+    background-color: #d9b8fb;
+   
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  .words {
+    background-image: url('images/pattern-word-count.svg');
+    background-color: #ffb000;
+  
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  .sentences {
+    background-image: url('images/pattern-sentence-count.svg');
+    background-color: #ff896b;
+  
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
